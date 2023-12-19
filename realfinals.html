@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ME</title>
+	<style>
+	.body {
+	font-family: Cambria; 
+	background-image: url('https://img.itch.zone/aW1hZ2UvNjEzNDMwLzMyNjQ2MzAucG5n/original/p8YbOn.png');
+	font-family: Cambria; 
+	margin: 0px;
+	padding: 0px;
+	backgrond-size:cover;
+	color: white;
+	padding-top: 120px;
+	}
+	
+	.header {
+	overflow: hidden;
+	background-color: #0A2463;
+	padding-bottom: 50px;
+	padding-top: 50px;	
+	margin: 0px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index:9999;
+	}
+	
+	.header a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 30px;
+	padding-left: 8.25%;
+	padding-right: 8.25%;
+	padding-bottom: 50px;
+	padding-top: 50px;	
+	}
+	
+	.header a:hover {
+	background-color: #0F3898;
+	color: white;
+	}
+	
+	.intro{
+	background-color: #0F3898;
+	}
+	
+	.me{
+	padding-top: 30px;
+	}
+	
+	.moi  {
+	font-size: 130px;
+	text-align: center;
+	}
+	
+	.moi p:hover {
+	font-size: 150px;
+	}
+	
+	.myself {
+	text-align: center;
+	font-size:65px;
+	}
+	
+	.thee {
+	text-align: center;
+	font-size:55px;
+	}
+	
+	.about {
+	margin: 20px;
+	background-color: #0A2463;
+	padding: 20px;
+	border-radius: 10px;
+	}
+	
+	.about span {
+	text-align: center;
+	font-size: 25px;
+	padding-left: 5%;
+	padding-right: 5%;
+	}
+	.pictures {
+	display: flex;
+	}
+	
+	.pictures a{
+	padding-left:5%;
+	padding-right:5%;
+	}
+	
+	.image {
+	float: right
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	.contact {
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+	padding-left: 8.25%;
+	padding-right: 8.25%;	
+	}
+	
+	.contacted{
+	text-decoration: none;
+	color: white;
+	}
+	
+
+	</style>
+</head>
+<body class="body">
+<header class="header">
+	<a class="contacted" href="#Home">Home </a>
+	<a class="contacted" href="#aboutme">About me </a>
+	<a class="contacted" href="#achieved">Achievements </a>
+	<a class="contacted" href="mailto:ccfloriano@gbox.adnu.edu.ph">Contact</a>
+</header>
+<div class="me" id="Home">
+	<p class="myself">Welcome, my name is</p>
+	<p class="moi">Clark Christian L. Floriano</p>
+	<p class="myself">Aspiring Computer Science Student</p>
+	<p class="myself">This is my Portfolio</p>
+</div>
+<!--
+	<section class="hobbies_style">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li><i class="fas fa-cloud"></i> Programming</li>
+            <li><i class="fas fa-book"></i> Reading</li>
+            <li><i class="fas fa-music"></i> Playing music</li>
+        </ul>
+    </section>
+-->
+<section class="about" id="aboutme">
+	<p class="thee">About me</p>
+	<div class="pictures">
+    <span>I am currently a first year student under the Computer Science course of ADNU and aim to become a game developer one day</span>
+	<span>I am proficient on programming in c++ and css/html and seek to improve my skills in not just these languages but eventually branch out into others like python, java, and so on.</span>
+	<span>My interests include Games, Anime/Manga and sports like Badminton</span>
+	<!-- 
+	<p>I am adequately skilled in css and c++</p>
+	<p>I have hobbies in games, manga, anime, and sports like badminton</p>
+	-->
+	</div>
+	<img class="image" src="https://cdn.dribbble.com/users/2451410/screenshots/6565118/pixelart_adnu.jpg"  height="auto" width="33%" >
+	<img class="image" src="https://cs.ucsb.edu/sites/default/files/2021-06/source-4280758_1920.jpg"  height="auto" width="33%" >
+	<img class="image" src="https://sandboxgamesdb.com/wp-content/uploads/2014/10/FTL-Faster-Than-Light-Game-Logo.jpg" height="auto" width="33%">
+</section>
+
+<section class="about" id="achieved">
+	<p class="thee">Achievements</p>
+	<div class="pictures">
+    <span>Creating a program that calculates the original price of an item given the current price and discount amount</span>
+	<span>Creating a program to display all even number of an inputted string in reverse order of input</span>
+	<span>Creating a program to display lists containing certain amounts of certain selected characters</span>
+	</div>
+	<img class="image" src="Work1.JPG" height="auto" width="33%">
+	<img class="image" src="Work2.JPG" height="auto" width="33%">
+	<img class="image" src="Work3.JPG" height="auto" width="33%">
+</section>
+<section class="about" id="contact">
+    <footer class="contact">
+        <h3>&copy; Clark Christian L. Floriano</h3>
+		<a class="contacted" href="mailto:ccfloriano@gbox.adnu.edu.ph">Contact me</a>
+		<br>
+		<a class="contacted" href="https://dribbble.com/shots/6565118-Ateneo-de-Naga-University-Pixel-Art">ADNU pixel art source</a>
+		<br>
+		<a class="contacted" href="https://cs.ucsb.edu/research/programming-languages-and-software-engineering">Coding image source</a>
+		<br>
+		<a class="contacted" href="https://sandboxgamesdb.com/games/ftl-faster-than-light/">FTL banner sourcs</a>	
+    </footer>
+</section>
+</body>
+</html>
